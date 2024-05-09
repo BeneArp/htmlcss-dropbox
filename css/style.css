@@ -156,33 +156,82 @@ section h2{
 .row{
     display: flex;
     justify-content: space-between;
+    align-items: stretch;
     /* debug */
-    height: 1000px;
     background-color: darkgreen;
 }
 
-.row .col-30{
-    width: 30%;
-    /* debug */
-    height: 800px;
-    border: 2px solid yellow;
-}
-
-.col-30 div{
-    padding: 20px;
-    width: 100%;
-    /* debug */
-}
-
-.col-30 .cell{
+.row .col-25{
+    width: 25%;
     border: 2px solid gray;
+    border-top: 0;
 }
 
-.col-30 .cell span{
+.col-25 .cell{
+    padding: 20px;
+}
+
+.col-25 .cell{
+    border-top: 2px solid gray;
+}
+
+section span{
     display: inline-block;
     margin-top: 20px;
 }
 
-.col-30 .cell div{
-    padding: 0;
+.col-25 .cell div{
+    margin: 30px 0;
+}
+
+section i{
+    margin-right: 10px;
+}
+
+/* formattazione bottoni per la sezione business */
+.contact-button{
+    text-align: center;
+}
+
+.contact-button{
+    padding: 18px 50px;
+    font-size: 16px;
+}
+
+
+#enterprise{
+    margin-top: 60px;
+    /* debug */
+    height: 300px;
+    background-color: darkgreen;
+}
+
+#icon{
+    text-align: center;
+    padding: 10px;
+    margin-top: 60px;
+    /* debug */
+    background: cyan;
+}
+
+#team-plan{
+    position: relative;
+}
+
+#team-plan button{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+#team-plan div{
+    padding: 30px;
+    /* debug */
+    background-color: yellow;
+}
+
+#team-plan span{
+    padding-top: 0;
+    margin-bottom: 50px;
+    font-weight: bold;
 }
