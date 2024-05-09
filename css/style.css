@@ -135,6 +135,7 @@ section h2{
     font-size: 40px;
 }
 
+/* PRIMA SEZIONE */
 /* formattazione scelta fatturazione */
 .check{
     display: inline-block;
@@ -162,6 +163,7 @@ section h2{
     display: flex;
     justify-content: space-between;
     align-items: stretch;
+    flex-wrap: wrap;
     /* debug */
     background-color: darkgreen;
 }
@@ -236,8 +238,39 @@ section i{
     font-weight: bold;
 }
 
+/* SECONDA SEZIONE */
 .white-button{
     background-color: white;
     color: black;
     border: 2px solid black;
+}
+
+/* TERZA SEZIONE */
+#operazioni{
+    margin-bottom: 120px;
+    /* debug */
+    margin-top: 200px;
+    height: 1000px;
+    background-color: darkorchid;
+}
+
+#operazioni .cell{
+
+    /* debug */
+    height: 400px;
+    background-color: pink;
+}
+
+#operazioni .col{
+    width: calc(100% / 3);
+    /* debug */
+    height: 600px;
+    background-color: pink;
+    border: 2px solid purple;
+}
+
+#operazioni .col div{
+    height: 50%;
+    /* debug */
+    border-bottom: 2px solid rebeccapurple;
 }
