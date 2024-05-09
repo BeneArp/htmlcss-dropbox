@@ -67,10 +67,8 @@ body{
 
 /* formattazione panoramica header */
 .header-footer-width{
-    width: 70%;
+    max-width: 1500px;
     margin: 0 auto;
-    /* debug */
-    height: 750px;
 }
 
 #jumbotron{
@@ -120,7 +118,7 @@ body{
 /* MAIN */
 /* dimensioni corpo pagina */
 .container{
-    width: 60%;
+    max-width: 1400px;
     margin: 140px auto;
     /* debug */
     height: 2500px;
@@ -154,7 +152,7 @@ section h2{
 }
 
 /* formattazione sezione business */
-#business{
+.row{
     display: flex;
     justify-content: space-between;
     /* debug */
@@ -162,29 +160,28 @@ section h2{
     background-color: darkgreen;
 }
 
-#business .col{
+.row .col-30{
     width: 30%;
     /* debug */
     height: 800px;
     border: 2px solid yellow;
 }
 
-.col div{
+.col-30 div{
     padding: 20px;
     width: 100%;
     /* debug */
-
 }
 
-.cell{
+.col-30 .cell{
     border: 2px solid gray;
 }
 
-.cell span{
+.col-30 .cell span{
     display: inline-block;
     margin-top: 20px;
 }
 
-.cell div{
+.col-30 .cell div{
     padding: 0;
 }
