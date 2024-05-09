@@ -3,3 +3,63 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* generali */
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+/* HEADER */
+#main-header{
+    height: 800px;
+    /* debug */
+    background-color: orange;
+}
+
+#main-header nav{
+    background-color: white;
+    height: 80px;
+    padding: 0 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.header-nav{
+    height: 100%;
+    width: 40%;
+    /* debug */
+    background-color: yellow;
+}
+
+.header-nav div{
+    display: inline-block;
+    height: 100%;
+    padding: 25px;
+    text-align: center;
+    margin-right: 10px;
+    
+    /* debug */
+    border: 2px solid red;
+}
+
+#nav-sx{
+    text-align: right;
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.header-nav img{
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+/* formattazione generale bottoni */
+.push-button{
+    background-color: rgb(55, 124, 253);
+    color: white;
+    padding:5px 15px;
+    border: none;
+    font-size: 16px;
+}
