@@ -83,7 +83,7 @@ body{
 }
 
 #title h1{
-    font-size: 75px;
+    font-size: 70px;
 }
 
 .preview{
@@ -153,9 +153,29 @@ section h2{
     background-color: darkgreen;
 }
 
-#business div{
+#business .col{
     width: 30%;
     /* debug */
     height: 800px;
     border: 2px solid yellow;
+}
+
+.col div{
+    padding: 20px;
+    width: 100%;
+    /* debug */
+
+}
+
+.cell{
+    border: 2px solid gray;
+}
+
+.cell span{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.cell div{
+    padding: 0;
 }
