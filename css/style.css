@@ -61,9 +61,9 @@ body{
 .push-button{
     background-color: rgb(55, 124, 253);
     color: white;
-    padding:5px 15px;
     border: none;
     font-size: 16px;
+    padding: 15px 30px;
 }
 
 /* formattazione panoramica header */
@@ -95,21 +95,26 @@ body{
     position: relative;
 }
 
-.description{
+.col-40{
     width: 40%;
     /* debug */
     height: 500px;
     border: 2px solid black;
 }
 
-.pic{
+.col-60{
     width: 60%;
+    /* debug */
+    border: 2px solid salmon;
+}
+
+.pic{
     position: absolute;
     right: 0;
     bottom: 0;
     /* debug */
     height: 500px;
-    border: 2px solid green;
+    border: 2px solid purple;
 }
 
 .pic img{
@@ -190,14 +195,8 @@ section i{
 
 /* formattazione bottoni per la sezione business */
 .contact-button{
-    text-align: center;
+    margin: 0 32px;
 }
-
-.contact-button{
-    padding: 18px 50px;
-    font-size: 16px;
-}
-
 
 #enterprise{
     margin-top: 60px;
@@ -216,6 +215,7 @@ section i{
 
 #team-plan{
     position: relative;
+    margin-bottom: 200px;
 }
 
 #team-plan button{
@@ -234,4 +234,10 @@ section i{
     padding-top: 0;
     margin-bottom: 50px;
     font-weight: bold;
+}
+
+.white-button{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
 }
