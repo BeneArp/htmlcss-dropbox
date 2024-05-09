@@ -11,13 +11,19 @@ body{
 
 /* HEADER */
 #main-header{
-    height: 900px;
+    height: 850px;
     background-color: rgb(180, 208, 231);
+}
+
+.header-nav{
+    height: 100%;
+    width: 40%;
+    /* debug */
+    background-color: yellow;
 }
 
 #main-header nav{
     background-color: white;
-    height: 80px;
     padding: 0 10px;
     position: fixed;
     width: 100%;
@@ -27,12 +33,6 @@ body{
     align-items: flex-start;
 }
 
-.header-nav{
-    height: 100%;
-    width: 40%;
-    /* debug */
-    background-color: yellow;
-}
 
 .header-nav div{
     display: inline-block;
@@ -67,11 +67,14 @@ body{
 
 /* formattazione panoramica header */
 .header-footer-width{
-    padding-top: 120px;
     width: 70%;
     margin: 0 auto;
     /* debug */
     height: 750px;
+}
+
+#jumbotron{
+    padding-top: 120px;
 }
 
 #title{
@@ -88,6 +91,9 @@ body{
 
 .preview{
     display: flex;
+    height: 550px;
+    border: 2px solid red;
+    position: relative;
 }
 
 .description{
@@ -99,6 +105,9 @@ body{
 
 .pic{
     width: 60%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
     /* debug */
     height: 500px;
     border: 2px solid green;
@@ -112,7 +121,7 @@ body{
 /* dimensioni corpo pagina */
 .container{
     width: 60%;
-    margin: 60px auto;
+    margin: 140px auto;
     /* debug */
     height: 2500px;
     background-color: cadetblue;
