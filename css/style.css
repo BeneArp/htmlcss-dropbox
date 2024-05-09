@@ -11,9 +11,8 @@ body{
 
 /* HEADER */
 #main-header{
-    height: 800px;
-    /* debug */
-    background-color: orange;
+    height: 900px;
+    background-color: rgb(180, 208, 231);
 }
 
 #main-header nav{
@@ -62,4 +61,47 @@ body{
     padding:5px 15px;
     border: none;
     font-size: 16px;
+}
+
+/* formattazione panoramica header */
+.header-footer-width{
+    background-color: white;
+    width: 70%;
+    margin: 40px auto;
+    /* debug */
+    height: 750px;
+}
+
+#title{
+    width: 95%;
+    height: 200px;
+    margin-bottom: 30px;
+    /* debug */
+    background-color: aquamarine;
+}
+
+#title h1{
+    font-size: 75px;
+}
+
+.preview{
+    display: flex;
+}
+
+.description{
+    width: 40%;
+    /* debug */
+    height: 500px;
+    border: 2px solid black;
+}
+
+.pic{
+    width: 60%;
+    /* debug */
+    height: 500px;
+    border: 2px solid green;
+}
+
+.pic img{
+    max-height: 100%;
 }
