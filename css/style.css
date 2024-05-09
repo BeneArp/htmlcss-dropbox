@@ -127,7 +127,6 @@ body{
     max-width: 1400px;
     margin: 140px auto;
     /* debug */
-    height: 2500px;
     background-color: cadetblue;
 }
 
@@ -246,31 +245,59 @@ section i{
 }
 
 /* TERZA SEZIONE */
-#operazioni{
-    margin-bottom: 120px;
+#actions{
     /* debug */
-    margin-top: 200px;
-    height: 1000px;
+    margin: 200px 0;
     background-color: darkorchid;
 }
 
-#operazioni .cell{
-
+#actions .cell{
     /* debug */
     height: 400px;
     background-color: pink;
 }
 
-#operazioni .col{
+.col-33{
     width: calc(100% / 3);
     /* debug */
-    height: 600px;
+    height: 700px;
     background-color: pink;
     border: 2px solid purple;
 }
 
-#operazioni .col div{
+#actions .col-33 div{
     height: 50%;
     /* debug */
     border-bottom: 2px solid rebeccapurple;
 }
+
+#customers{
+    display: flex;
+    /* debug */
+    height: 700px;
+    background-color: red;
+}
+
+#customers .col-33{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 50%;
+    /* debug */
+    height: 50%;
+    background-color: darkslateblue;
+    border: 2px solid snow;
+}
+
+#company-info{
+    overflow-y: auto;
+}
+
+/* DEBUG */
+#company-info p{
+    margin: 70px;
+}
+
+
