@@ -105,3 +105,13 @@ body{
 .pic img{
     max-height: 100%;
 }
+
+/* MAIN */
+/* dimensioni corpo pagina */
+.container{
+    width: 60%;
+    margin: 60px auto;
+    /* debug */
+    height: 2500px;
+    background-color: cadetblue;
+}
