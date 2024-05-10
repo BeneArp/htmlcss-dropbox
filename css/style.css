@@ -271,6 +271,18 @@ i{
     border: 2px solid black;
 }
 
+#partner .col-40{
+    padding: 80px;
+}
+
+#partner .col-40 h3{
+    font-size: 25px;
+}
+
+#partner .col-40 p{
+    margin: 40px 0;
+}
+
 /* TERZA SEZIONE */
 #actions{
     /* debug */
