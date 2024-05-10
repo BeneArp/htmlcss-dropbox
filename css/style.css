@@ -95,7 +95,7 @@ span{
 
 #jumbotron{
     padding-top: 120px;
-    min-height: 1500px;
+    min-height: 950px;
 }
 
 /* formattazione testo jumbotron */
@@ -105,7 +105,7 @@ span{
 }
 
 #jumbotron p{
-    margin: 45px 0 60px 0;
+    margin: 70px 0 60px 0;
 }
 
 #jumbotron i{
@@ -118,7 +118,7 @@ span{
 
 .preview{
     display: flex;
-    height: 600px;
+    height: 580px;
 }
 
 .col-40{
@@ -129,7 +129,6 @@ span{
 .col-60{
     width: 60%;
 }
-
 
 #text{
     position: relative;
