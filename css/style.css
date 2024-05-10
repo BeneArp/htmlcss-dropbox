@@ -155,12 +155,12 @@ section h2{
 .row{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     /* debug */
     background-color: darkgreen;
 }
 
 #row-plans{
-    flex-wrap: wrap;
     align-items: stretch;
 }
 
@@ -270,11 +270,6 @@ i{
     background-color: darkorchid;
 }
 
-#actions .cell{
-    /* debug */
-    height: 400px;
-    background-color: pink;
-}
 
 .col-33{
     width: calc(100% / 3);
@@ -323,9 +318,6 @@ i{
 
 #free-trial-container{
     margin-top: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 80px;
 }
 
@@ -341,13 +333,10 @@ i{
 
 /* QUINTA SEZIONE */
 .question-row{
-    display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 40px 40px 40px 0;
     border-top: 2px solid grey;
     border-bottom: 2px solid grey;
-    position: relative;
     /* debug */
     background-color: darkseagreen;
 }
