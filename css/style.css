@@ -95,56 +95,53 @@ span{
 
 #jumbotron{
     padding-top: 120px;
+    min-height: 1500px;
 }
 
+/* formattazione testo jumbotron */
 #jumbotron h1{
     font-size: 70px;
     margin-bottom: 30px;
 }
 
-.preview{
-    position: relative;
-    display: flex;
-    height: 550px;
-    border: 2px solid red;
-}
-
-.col-40{
-    font-size: 18px;
-    width: 40%;
-    /* debug */
-    height: 500px;
-    border: 2px solid black;
-}
-
-.col-60{
-    width: 60%;
-    /* debug */
-    border: 2px solid salmon;
-}
-
-/* formattazione testo jumbotron */
 #jumbotron p{
     margin: 45px 0 60px 0;
 }
 
 #jumbotron i{
+    position: absolute;
+    bottom: 0;
+    left: 0;
     color: black;
-    margin-top: 140px;
     font-size: 60px;
 }
 
-.pic{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    /* debug */
+.preview{
+    display: flex;
+    height: 600px;
+}
+
+.col-40{
+    font-size: 18px;
+    width: 40%;
+}
+
+.col-60{
+    width: 60%;
+}
+
+
+#text{
+    position: relative;
     height: 500px;
-    border: 2px solid purple;
+}
+
+.pic{
+    align-self: flex-end;
 }
 
 .col-60 img{
-    max-height: 100%;
+    max-width: 100%;
 }
 
 /* MAIN */
