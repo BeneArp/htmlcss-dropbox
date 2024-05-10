@@ -316,17 +316,29 @@ i{
 }
 
 #customers .col-33{
+    padding: 0;
+}
+
+#customers .col-33{
     display: flex;
     flex-wrap: wrap;
 }
 
 .logo{
+    padding-top: 100px;
+    text-align: center;
     width: 50%;
     /* debug */
     height: 50%;
     background-color: darkslateblue;
     border: 2px solid snow;
 }
+
+.logo img{
+    height: 50%;
+    width: 50%;
+}
+
 
 #company-info{
     overflow-y: auto;
