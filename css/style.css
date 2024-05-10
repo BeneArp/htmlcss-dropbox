@@ -197,7 +197,7 @@ li{
     list-style: none;
 }
 
-li::before{
+#row-plans li::before{
     font-family: FontAwesome;
     content: "\f00c";
     margin-right: 10px;
@@ -353,4 +353,14 @@ footer{
     color: white;
     /* debug */
     height: 700px;
+}
+
+.footer-cel{
+    width: calc(100% / 5);
+    padding: 80px 30px 50px 0;
+}
+
+.footer-cel a{
+    color: white;
+    text-decoration: none;
 }
