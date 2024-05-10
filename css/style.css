@@ -35,7 +35,6 @@ span{
 .header-footer-width{
     max-width: 1500px;
     margin: 0 auto;
-    padding: 30px;
 }
 
 
@@ -317,8 +316,6 @@ i{
 /* QUARTA SEZIONE */
 #customers{
     display: flex;
-    /* debug */
-    height: 700px;
 }
 
 #customers .col-33{
@@ -331,12 +328,10 @@ i{
 }
 
 .logo{
-    padding-top: 100px;
-    text-align: center;
-    width: 50%;
+    aspect-ratio: 1 / 1;
+    width: calc(100% / 2);
     background-color: rgb(180, 208, 231);
     /* debug */
-    height: 50%;
 }
 
 /* colori sfondo loghi */
@@ -369,12 +364,14 @@ i{
 }
 
 .logo img{
+    filter: invert(3);
     height: 50%;
     width: 50%;
 }
 
 
 #company-info{
+    height: 800px;
     overflow-y: auto;
     background-color: rgb(245, 245, 245);
 }
