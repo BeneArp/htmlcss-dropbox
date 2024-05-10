@@ -75,17 +75,11 @@ body{
 #jumbotron{
     padding-top: 120px;
 }
-
-#title{
-    width: 95%;
-    height: 200px;
+#jumbotron h1{
+    font-size: 70px;
     margin-bottom: 30px;
     /* debug */
     background-color: aquamarine;
-}
-
-#title h1{
-    font-size: 70px;
 }
 
 .preview{
