@@ -28,7 +28,7 @@ span{
 .container{
     max-width: 1400px;
     margin: 140px auto;
-    padding: 30px;
+    padding: 20px;
 }
 
 /* dimesnione header a footer */
@@ -249,7 +249,7 @@ i{
 
 /* formattazione bottoni per la sezione business */
 .contact-button{
-    margin: 0 32px;
+    margin: 0 25px;
 }
 
 #icon{
