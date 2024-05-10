@@ -265,6 +265,8 @@ section i{
     border-bottom: 2px solid rebeccapurple;
 }
 
+
+/* QUARTA SEZIONE */
 #customers{
     display: flex;
     /* debug */
@@ -311,3 +313,28 @@ section i{
 }
 
 
+
+/* QUINTA SEZIONE */
+.question-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 40px 40px 0;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    position: relative;
+    /* debug */
+    background-color: darkseagreen;
+}
+
+#center{
+    border: none;
+}
+
+
+
+/* FOOTER */
+footer{
+    background-color: black;
+    color: white;
+}
