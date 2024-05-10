@@ -183,6 +183,7 @@ section h2{
 .col-25 span{
     display: inline-block;
     margin-top: 20px;
+    width: 100%;
 }
 
 .bold{
@@ -360,8 +361,9 @@ footer{
 }
 
 .footer-cel{
-    width: calc(100% / 5);
-    padding: 80px 30px 100px 0;
+    width: calc(100% / 5 - 120px);
+    padding: 80px 0 100px 0;
+    margin-right: 60px;
 }
 
 .footer-cel a{
