@@ -38,6 +38,21 @@ span{
     margin: 140px auto;
 }
 
+/* formattazione generale testo */
+h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+p{
+    margin: 40px 0;
+}
+
+
 /* HEADER */
 #main-header{
     height: 850px;
@@ -147,9 +162,6 @@ span{
     height: 20px;
 }
 
-section h2{
-    font-size: 30px;
-}
 
 /* PRIMA SEZIONE */
 /* formattazione scelta fatturazione */
@@ -275,34 +287,23 @@ i{
     padding: 80px;
 }
 
-#partner .col-40 h3{
-    font-size: 25px;
-}
-
-#partner .col-40 p{
-    margin: 40px 0;
-}
-
 /* TERZA SEZIONE */
 #actions{
-    /* debug */
     margin: 200px 0;
-    background-color: darkorchid;
 }
-
 
 .col-33{
     width: calc(100% / 3);
-    /* debug */
-    height: 700px;
-    background-color: pink;
-    border: 2px solid purple;
+    padding: 0 80px;
 }
 
-#actions .col-33 div{
-    height: 50%;
-    /* debug */
-    border-bottom: 2px solid rebeccapurple;
+#actions .cell{
+    max-height: 50%;
+}
+
+#actions .cell img{
+    max-width: 100%;
+    max-height: 100%;
 }
 
 
