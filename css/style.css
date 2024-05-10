@@ -125,7 +125,7 @@ body{
 }
 
 section h2{
-    font-size: 40px;
+    font-size: 30px;
 }
 
 /* PRIMA SEZIONE */
@@ -292,6 +292,22 @@ section i{
 /* DEBUG */
 #company-info p{
     margin: 70px;
+}
+
+#free-trial-container{
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+}
+
+#free-trial{
+    background-color: rgb(180, 208, 231);
+}
+
+#free-trial h2{
+    color: rgb(97, 8, 43);
 }
 
 
