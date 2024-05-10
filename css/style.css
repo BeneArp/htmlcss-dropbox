@@ -28,7 +28,16 @@ span{
 .container{
     max-width: 1400px;
     margin: 140px auto;
+    padding: 30px;
 }
+
+/* dimesnione header a footer */
+.header-footer-width{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
 
 /* formattazione generale testo */
 h2{
@@ -104,11 +113,6 @@ p{
 }
 
 /* formattazione panoramica header */
-.header-footer-width{
-    max-width: 1500px;
-    margin: 0 auto;
-}
-
 #jumbotron{
     padding-top: 120px;
     min-height: 950px;
@@ -313,7 +317,6 @@ i{
 /* QUARTA SEZIONE */
 #customers{
     display: flex;
-    background-color: rgb(245, 245, 245);
     /* debug */
     height: 700px;
 }
@@ -331,10 +334,38 @@ i{
     padding-top: 100px;
     text-align: center;
     width: 50%;
+    background-color: rgb(180, 208, 231);
     /* debug */
     height: 50%;
-    background-color: darkslateblue;
-    border: 2px solid snow;
+}
+
+/* colori sfondo loghi */
+#bg-green{
+    background-color: rgb(162, 211, 155);
+}
+
+#bg-maroon{
+    background-color: rgb(97, 8, 43);
+}
+
+#bg-cyan{
+    background-color: rgb(0, 147, 208);
+}
+
+#bg-orange{
+    background-color: rgb(255, 28, 28);
+}
+
+#bg-red{
+    background-color: rgb(213, 0, 31);
+}
+
+#bg-blue{
+    background-color: rgb(13, 36, 129);
+}
+
+#bg-yellow{
+    background-color: rgb(255, 216, 48);
 }
 
 .logo img{
@@ -345,11 +376,12 @@ i{
 
 #company-info{
     overflow-y: auto;
+    background-color: rgb(245, 245, 245);
 }
 
 /* DEBUG */
 #company-info p{
-    margin: 70px;
+    margin: 80px;
 }
 
 #free-trial-container{
