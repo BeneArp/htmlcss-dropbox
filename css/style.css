@@ -185,6 +185,10 @@ section h2{
     margin-top: 20px;
 }
 
+.bold{
+    font-weight: bold;
+}
+
 .little-border{
     margin-left: 20px;
     width: 50px;
@@ -357,10 +361,25 @@ footer{
 
 .footer-cel{
     width: calc(100% / 5);
-    padding: 80px 30px 50px 0;
+    padding: 80px 30px 100px 0;
 }
 
 .footer-cel a{
     color: white;
     text-decoration: none;
+}
+
+.header-footer-width .little-border{
+    width: 100px;
+    margin-left: 0;
+    margin-bottom: 50px;
+}
+
+.gray-color{
+    color: gray;
+}
+
+.fa-caret-up{
+    margin-left: 5px;
+    vertical-align: middle;
 }
