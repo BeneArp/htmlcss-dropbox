@@ -111,7 +111,7 @@ body{
     border: 2px solid purple;
 }
 
-.pic img{
+.col-60 img{
     max-height: 100%;
 }
 
@@ -155,13 +155,17 @@ section h2{
 .row{
     display: flex;
     justify-content: space-between;
-    align-items: stretch;
-    flex-wrap: wrap;
     /* debug */
     background-color: darkgreen;
 }
 
-.row .col-25{
+#row-plans{
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+
+.col-25{
     width: 25%;
     border: 2px solid gray;
     border-top: 0;
@@ -169,24 +173,45 @@ section h2{
 
 .col-25 .cell{
     padding: 20px;
+    border-top: 2px solid grey;
 }
 
-.col-25 .cell{
-    border-top: 2px solid gray;
+.col-25 .highlights{
+    border-top: none;
 }
 
-section span{
+.col-25 span{
     display: inline-block;
     margin-top: 20px;
 }
 
-.col-25 .cell div{
-    margin: 30px 0;
+.little-border{
+    margin-left: 20px;
+    width: 50px;
+    height: 2px;
+    background-color: grey;
 }
 
-section i{
+li{
+    margin: 15px 0;
+    list-style: none;
+}
+
+li::before{
+    font-family: FontAwesome;
+    content: "\f00c";
+    margin-right: 10px;
+    color: rgb(55, 124, 253);
+}
+
+i{
     margin-right: 10px;
 }
+
+.cell button{
+    margin-top: 20px;
+}
+
 
 /* formattazione bottoni per la sezione business */
 .contact-button{
@@ -337,4 +362,6 @@ section i{
 footer{
     background-color: black;
     color: white;
+    /* debug */
+    height: 700px;
 }
