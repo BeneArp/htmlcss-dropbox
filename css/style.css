@@ -23,15 +23,6 @@ span{
     width: 100%;
 }
 
-/* formattazione generale bottoni */
-.push-button{
-    background-color: rgb(55, 124, 253);
-    color: white;
-    border: none;
-    font-size: 16px;
-    padding: 15px 30px;
-}
-
 /* dimensioni corpo pagina */
 .container{
     max-width: 1400px;
@@ -51,6 +42,17 @@ h3{
 p{
     margin: 40px 0;
 }
+
+/* formattazione generale bottoni */
+.push-button{
+    background-color: rgb(55, 124, 253);
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+
 
 
 /* HEADER */
@@ -370,8 +372,7 @@ i{
     padding: 40px 40px 40px 0;
     border-top: 2px solid grey;
     border-bottom: 2px solid grey;
-    /* debug */
-    background-color: darkseagreen;
+    cursor: pointer;
 }
 
 #center{
@@ -384,8 +385,7 @@ i{
 footer{
     background-color: black;
     color: white;
-    /* debug */
-    height: 700px;
+    padding-bottom:80px;
 }
 
 .footer-cel{
@@ -407,6 +407,10 @@ footer{
 
 .gray-color{
     color: gray;
+}
+
+footer .gray-color{
+    cursor: pointer;
 }
 
 .fa-caret-up{
