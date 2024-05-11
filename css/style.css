@@ -328,7 +328,6 @@ i{
 
 .logo{
     position: relative;
-    aspect-ratio: 1 / 1;
     width: calc(100% / 2);
     background-color: rgb(180, 208, 231);
 }
