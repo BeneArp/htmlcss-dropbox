@@ -64,6 +64,7 @@ p{
 
 
 
+
 /* HEADER */
 #main-header{
     height: 850px;
@@ -114,7 +115,7 @@ p{
 /* formattazione panoramica header */
 #jumbotron{
     padding-top: 120px;
-    min-height: 950px;
+    max-height: 950px;
 }
 
 /* formattazione testo jumbotron */
@@ -137,7 +138,7 @@ p{
 
 .preview{
     display: flex;
-    height: 580px;
+    max-height: 580px;
 }
 
 .col-40{
@@ -161,6 +162,10 @@ p{
 .col-60 img{
     max-width: 100%;
 }
+
+
+
+
 
 /* MAIN */
 #plans-info{
@@ -242,14 +247,9 @@ i{
     margin-right: 10px;
 }
 
-.cell button{
-    margin-top: 20px;
-}
-
-
 /* formattazione bottoni per la sezione business */
 .contact-button{
-    margin: 0 25px;
+    margin: 20px 25px;
 }
 
 #icon{
@@ -278,7 +278,6 @@ i{
 
 #team-plan span{
     padding-top: 0;
-    margin-bottom: 50px;
     font-weight: bold;
 }
 
@@ -332,7 +331,6 @@ i{
     aspect-ratio: 1 / 1;
     width: calc(100% / 2);
     background-color: rgb(180, 208, 231);
-    /* debug */
 }
 
 /* colori sfondo loghi */
@@ -376,7 +374,7 @@ i{
 
 
 #company-info{
-    height: 800px;
+    height: 847px;
     overflow-y: auto;
     background-color: rgb(245, 245, 245);
 }
@@ -404,7 +402,8 @@ i{
 /* QUINTA SEZIONE */
 .question-row{
     align-items: center;
-    padding: 40px 40px 40px 0;
+    padding: 40px;
+    padding-left: 0;
     border-top: 2px solid grey;
     border-bottom: 2px solid grey;
     cursor: pointer;
@@ -424,9 +423,7 @@ footer{
 }
 
 .footer-cel{
-    width: calc(100% / 5 - 120px);
     padding: 80px 0 100px 0;
-    margin-right: 60px;
 }
 
 .footer-cel a{
