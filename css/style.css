@@ -232,21 +232,20 @@ p{
 }
 
 li{
-    margin: 15px 0;
-    list-style: none;
+    margin: 15px 10px;
+    padding-left: 10px;
+    list-style-type: "\2713";
 }
 
-#row-plans li::before{
-    font-family: FontAwesome;
-    content: "\f00c";
-    margin-right: 10px;
+li::marker{
     color: rgb(55, 124, 253);
+    font-weight: bold;
+    font-size: 20px;
 }
 
 i{
     margin-right: 10px;
 }
-
 /* formattazione bottoni per la sezione business */
 .contact-button{
     margin: 20px 25px;
@@ -299,7 +298,7 @@ i{
 
 .col-33{
     width: calc(100% / 3);
-    padding: 0 80px;
+    padding-right: 80px;
 }
 
 #actions .cell{
