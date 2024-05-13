@@ -52,6 +52,10 @@ p{
     margin: 40px 0;
 }
 
+li{
+    list-style: none;
+}
+
 /* formattazione generale bottoni */
 .push-button{
     background-color: rgb(55, 124, 253);
@@ -231,13 +235,13 @@ p{
     background-color: grey;
 }
 
-li{
+#row-plans li{
     margin: 15px 10px;
     padding-left: 10px;
     list-style-type: "\2713";
 }
 
-li::marker{
+#row-plans li::marker{
     color: rgb(55, 124, 253);
     font-weight: bold;
     font-size: 20px;
@@ -428,6 +432,9 @@ footer{
     padding-bottom:80px;
 }
 
+footer li{
+    margin-top: 30px;
+}
 
 .footer-cel{
     padding: 80px 0 100px 0;
