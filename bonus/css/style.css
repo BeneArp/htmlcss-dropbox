@@ -424,6 +424,12 @@ i{
     border: none;
 }
 
+.answer{
+    color: gray;
+    display: none;
+}
+
+
 
 
 /* FOOTER */

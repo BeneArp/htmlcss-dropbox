@@ -13,3 +13,11 @@
 footer a:hover{
     text-decoration: underline;
 }
+
+.question-row:hover .answer{
+    display: block;
+}
+
+.question-row:hover .fa-angle-down{
+    transform: rotate(180deg);
+}
