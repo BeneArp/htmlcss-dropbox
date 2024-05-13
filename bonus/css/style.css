@@ -122,6 +122,27 @@ li{
     margin-right: 5px;
 }
 
+.dropdown{
+    margin-left: 20px;
+}
+
+
+.content{
+    display: none;
+    top: 80px;
+    right: 400px;
+    position: absolute;
+    height: 100px;
+    padding: 10px;
+}
+
+.content a{
+    background-color: rgb(221, 221, 221);
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: black;
+}
 
 /* formattazione panoramica header */
 #jumbotron{
