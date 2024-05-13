@@ -1,0 +1,15 @@
+.push-button:hover{
+    background-color: rgb(96, 152, 255);
+}
+
+.white-button:hover{
+    background-color: rgb(241, 241, 241);
+}
+
+.header-nav div:hover{
+    border-bottom: 3px solid black;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
