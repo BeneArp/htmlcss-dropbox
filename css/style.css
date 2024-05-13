@@ -381,9 +381,13 @@ i{
     background-color: rgb(245, 245, 245);
 }
 
-/* DEBUG */
-#company-info p{
-    margin: 80px;
+#designit-info{
+    font-size: 18px;
+    padding: 60px;
+}
+
+#designit-info img{
+    margin-bottom: 30px;
 }
 
 #free-trial-container{
@@ -424,6 +428,7 @@ footer{
     padding-bottom:80px;
 }
 
+
 .footer-cel{
     padding: 80px 0 100px 0;
 }
@@ -433,7 +438,7 @@ footer{
     text-decoration: none;
 }
 
-.header-footer-width .little-border{
+.little-border-2{
     width: 100px;
     margin-left: 0;
     margin-bottom: 50px;
