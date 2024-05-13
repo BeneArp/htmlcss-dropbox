@@ -6,7 +6,7 @@
     background-color: rgb(241, 241, 241);
 }
 
-li:hover {
+header li:hover {
     border-bottom: 2px solid black;
 }
 
