@@ -6,8 +6,8 @@
     background-color: rgb(241, 241, 241);
 }
 
-.header-nav div:hover{
-    border-bottom: 3px solid black;
+li:hover {
+    border-bottom: 2px solid black;
 }
 
 footer a:hover{
@@ -20,4 +20,12 @@ footer a:hover{
 
 .question-row:hover .fa-angle-down{
     transform: rotate(180deg);
+}
+
+.dropdown:hover .content{
+    display: block;
+}
+
+.content a:hover{
+    background-color: rgb(207, 207, 207);
 }
