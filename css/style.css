@@ -107,13 +107,13 @@ li{
     cursor: pointer;
 }
 
-#nav-sx{
+#nav-dx{
     text-align: right;
     margin-right: 0;
     margin-left: 10px;
 }
 
-#nav-sx .push-button{
+#nav-dx .push-button{
     padding: 10px 20px;
 }
 
