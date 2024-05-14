@@ -102,7 +102,7 @@ header nav{
     color: black;
 }
 
-#nav-dx img{
+#nav-sx img{
     height: 35px;
     margin: 30px 10px;
 }
@@ -118,11 +118,11 @@ header nav{
     padding: 40px;
 }
 
-#nav-sx{
+#nav-dx{
     justify-content: flex-end;
 }
 
-#nav-sx button{
+#nav-dx button{
     margin: 25px 10px;
     height: fit-content;
 }
@@ -158,14 +158,6 @@ header nav{
 
 .col-60{
     width: 60%;
-}
-
-#text{
-    height: 500px;
-}
-
-.pic{
-    align-self: flex-end;
 }
 
 .col-60 img{
