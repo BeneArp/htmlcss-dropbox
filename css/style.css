@@ -243,18 +243,38 @@ header nav{
 #row-plans li{
     margin: 15px 10px;
     padding-left: 10px;
+}
+
+.highlights li{
     list-style-type: "\2713";
 }
 
-#row-plans li::marker{
+.highlights li::marker{
     color: rgb(55, 124, 253);
     font-weight: bold;
     font-size: 20px;
 }
 
+.user{
+    list-style-type: "\f508";
+}
+
+.fold{
+    list-style-type: "\f07b";
+}
+
+.nodes{
+    list-style-type: "\f1e0";
+}
+
+.font-awesome::marker{
+    font-family: "FontAwesome";
+}
+
 i{
     margin-right: 10px;
 }
+
 /* formattazione bottoni per la sezione business */
 .contact-button{
     margin: 20px 25px;
