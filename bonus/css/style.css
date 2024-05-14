@@ -102,11 +102,6 @@ header nav{
     color: black;
 }
 
-#nav-dx img{
-    height: 35px;
-    margin: 30px 10px;
-}
-
 .header-nav ul{
     height: 100%;
     display: flex;
@@ -118,11 +113,16 @@ header nav{
     padding: 40px;
 }
 
-#nav-sx{
+#nav-sx img{
+    height: 35px;
+    margin: 30px 10px;
+}
+
+#nav-dx{
     justify-content: flex-end;
 }
 
-#nav-sx button{
+#nav-dx button{
     margin: 25px 10px;
     height: fit-content;
 }
@@ -171,14 +171,6 @@ header nav{
 
 .col-60{
     width: 60%;
-}
-
-#text{
-    height: 500px;
-}
-
-.pic{
-    align-self: flex-end;
 }
 
 .col-60 img{
@@ -256,13 +248,32 @@ header nav{
 #row-plans li{
     margin: 15px 10px;
     padding-left: 10px;
+}
+
+.highlights li{
     list-style-type: "\2713";
 }
 
-#row-plans li::marker{
+.highlights li::marker{
     color: rgb(55, 124, 253);
     font-weight: bold;
     font-size: 20px;
+}
+
+.user{
+    list-style-type: "\f508";
+}
+
+.fold{
+    list-style-type: "\f07b";
+}
+
+.nodes{
+    list-style-type: "\f1e0";
+}
+
+.font-awesome::marker{
+    font-family: "FontAwesome";
 }
 
 i{
@@ -297,6 +308,9 @@ i{
     padding: 30px;
 }
 
+
+
+
 /* SECONDA SEZIONE */
 .white-button{
     background-color: white;
@@ -307,6 +321,10 @@ i{
 #partner .col-40{
     padding: 80px;
 }
+
+
+
+
 
 /* TERZA SEZIONE */
 #actions{
@@ -326,6 +344,9 @@ i{
     max-width: 100%;
     max-height: 100%;
 }
+
+
+
 
 
 /* QUARTA SEZIONE */
